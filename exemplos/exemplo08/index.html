@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/mcarneir0/html-css-lets-code/main/favicon.jpg" type="image">
+    <title>Exemplo de Mídias em HTML5</title>
+</head>
+<body>
+    <div>
+        <h1>Reproduzindo Áudio</h1>
+        <audio preload="metadata" autoplay controls loop>
+            <source src="audio1.mp3" type="audio/mp3">
+            <source src="audio2.wav" type="audio/wav">
+            <source src="audio3.ogg" type="audio/ogg">
+        </audio>
+    </div>
+
+    <div>
+        <h1>Reproduzindo Vídeos</h1>
+        <video width="560" poster="thumbnail.png" controls>
+            <source src="video1.mp4" type="video/mp4">
+            <source src="video2.m4v" type="video/mp4">
+            <source src="video3.webm" type="video/webm">
+            <source src="video4.ogv" type="video/ogg">
+        </video>
+    </div>
+
+    <div>
+        <h1>Vídeo do Youtube</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/rqCN1ugaANU"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+    </div>
+</body>
+</html>
