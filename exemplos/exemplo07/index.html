@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/mcarneir0/html-css-lets-code/main/favicon.jpg" type="image">
+    <title>Exemplo de Imagem Flexível</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Teste de imagem pequena, média e grande</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="https://media-exp1.licdn.com/dms/image/C4E0BAQHJlOMD45BJyg/company-logo_200_200/0/1626114016116?e=2159024400&v=beta&t=-iVaZ-QkSebPEmexCQuUdyhmFVmg5u4Cav1wONp5E3s" type="image/png">
+        <source media="(max-width: 1050px" srcset="https://image.slidesharecdn.com/seattlecodecamp2012-120616101514-phpapp02/95/seattle-code-camp-2012-15-728.jpg?cb=1339924297" type="image/png">
+        <img src="https://lc-public-assets.s3.sa-east-1.amazonaws.com/images/Cover/LetsCodeCover.png">
+    </picture>
+</body>
+</html>
