@@ -1,0 +1,23 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.background, .circle, body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background {
+    width: 100%;
+    height: 250px;
+    background-color: #132e4c;
+}
+
+.circle {
+    height: 200px;
+    width: 200px;
+    background-color: #fff;
+    border-radius: 50%;
+}
