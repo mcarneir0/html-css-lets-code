@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.background, .button, body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background {
+    width: 20%;
+    height: 20%;
+    background-color: #132e4c;
+}
+
+.button {
+    height: 30px;
+    width: 120px;
+    background-image: linear-gradient(to right, #FDFDFD, #DEDEDE);
+    border-radius: 12% / 50%;
+}
+
+a, a:link, a:visited {
+    color: #3D3D3D;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
